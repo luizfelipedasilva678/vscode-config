@@ -1,0 +1,31 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "tabnine.experimentalAutoImports": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "eslint.validate": [
+        {
+            "language": "javascript",
+            "autoFix": true,
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true,
+        },
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+    },
+    "workbench.productIconTheme": "fluent-icons",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "php": "php",
+        "perl": "perl",
+        "shellscript": "bash",
+    }
+}
